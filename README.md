@@ -18,7 +18,7 @@ OnEnable() for example listening to the zBirdControll.OnPassedPipe. When the sco
 - Both the UI being the ScoreTextView and audio systme being AudioTrack connect to ScoreChange meaning theyll activate then and there without the player knowing they exist
 - This design make sure that the player logic for control is seperated from presentation being the view 
 - The link happens through events, scoremanger singleton that keeps code orginized. 
-- 
+
 
 ## Open-Source Assets
 If you added any other assets, list them here!
