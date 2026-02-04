@@ -3,9 +3,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ScoreManger : MonoBehaviour
+public class ScoreManager : MonoBehaviour
 {
-    public static ScoreManger Instance { get; private set; }
+    public static ScoreManager Instance { get; private set; }
     public event Action<int> ScoreChanged; 
     public int Score { get; private set; }
 

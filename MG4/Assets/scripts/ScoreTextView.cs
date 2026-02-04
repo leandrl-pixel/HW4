@@ -12,13 +12,13 @@ public class ScoreTextView : MonoBehaviour
         // begin display 
         scoreText.text = "0";
 
-        ScoreManger.Instance.ScoreChanged += UpdateScoreText; 
+        ScoreManager.Instance.ScoreChanged += UpdateScoreText; 
     }
 
     private void OnDestroy()
     {
-        if (ScoreManger.Instance != null)
-            ScoreManger.Instance.ScoreChanged -= UpdateScoreText;
+        if (ScoreManager.Instance != null)
+            ScoreManager.Instance.ScoreChanged -= UpdateScoreText;
     }
 
 
